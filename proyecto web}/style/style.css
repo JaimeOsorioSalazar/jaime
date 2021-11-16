@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: rgb(41, 39, 39);
+    color: rgb(218, 216, 216);
+    border-left: 10px double rgb(167, 4, 4);
+}
+header {
+    /* position: fixed;
+    top: 0; */
+    width: 100%;
+}
+.nav li{
+    margin: 0;
+    display: inline-block;
+    text-align: justify;
+}
+ul>li>a{
+    text-decoration: none;
+    color: white;
+    padding: 5px ;
+}
+ul>li>a:hover{
+    color: rgb(247, 66, 66);
+    border-bottom: 2px solid rgb(167, 4, 4);
+    /* text-shadow: 1px 1px 5px rgb(207, 26, 26); */
+    background:rgb(71, 70, 70) ;
+    border-radius: 10px 10px 0 0 ;
+    transition:  .5s;
+}
+h1{
+    padding: 2rem;
+    font-size: 5.5rem;
+}
+section{
+    padding-top:30rem ;
+}
+section>div {
+    height: 80vh;
+    margin-left: auto ;
+    margin-right: auto;
+    width: 70%;
+    border-bottom:  5px double rgb(167, 4, 4);
+}
+h2 {
+    margin: 4rem;
+    font-size: 2.5rem;
+    text-decoration: underline 2px rgb(167, 4, 4);
+}
+p{
+    margin: 10px;
+    font-size: 1.3rem;
+}
+.ecuacion {
+    margin: 20px;
+    font-size: 1.3rem;
+}
+ul{
+    padding: 20px;
+}
+ul li{
+    padding: 5px;
+    list-style: circle ;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-left: 30%;
+}
+span{
+    font-style: italic;
+    letter-spacing: 3px;
+}
+.autores{
+    font-style: italic;
+    letter-spacing: 5px;
+    font-size: .9rem;
+}

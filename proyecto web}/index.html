@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generalidades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Generalidades</h1>
+        <span class="autores">Jaime Osorio y Kenneth Maury</span>
+        <br><br>
+        <hr>
+        <div class="nav">
+            <ul>
+                <li> <a href="#1">Definicion de control</a></li>
+                <li> <a href="#2">Campo de medida</a></li>
+                <li> <a href="#3">Alcance</a></li>
+                <li> <a href="#4">Error</a></li>
+                <li> <a href="#5">Incertidumbre de la medida</a></li>
+                <li> <a href="#6"> Tipo A</a></li>
+                <li> <a href="#7">Tipo B</a></li>
+                <li> <a href="#8">Exactitud</a></li>
+                <li> <a href="#9">Precisión</a></li>
+                <li> <a href="#10">Zona muerta</a></li>
+                <li> <a href="#11">Repetibilidad</a></li>
+                <li> <a href="#12">Histéresis</a></li>
+                <li> <a href="#13">Otros terminos</a></li>
+                <li> <a href="#14">Clases de instrumentos</a></li>
+                <li> <a href="#15">Por su función</a></li>
+                <li> <a href="#16">Variable del proceso</a></li>
+                <li><a href="#17">Codigo de identificación instrumental </a></li>
+                
+                
+            </ul>
+        </div>
+    </header>
+    <hr>
+    <section>
+        <div class="C1" id="1">
+            <h2>Definición de control </h2>
+            <p>
+                Términos generalizados para definir las características propias de medida, control, estática, dinámica de diversos instrumentos usados para todos los tipos de procesos industriales.
+            </p>
+            <ul>
+                <li>Indicadores</li>
+                <li>Registradores</li>
+                <li>Controladores</li>
+                <li>Transmisores</li>
+                <li>Válvulas de control</li>
+            </ul>
+            <span>Terminología sugeridos por ANSI/ISA S51.1-1979 (R-1993</span>
+        </div>
+        <div class="C2" id="2">
+            <h2>Campo de medida </h2>
+            <p>
+                Conjunto de valores que que puede alcanzar la variable a medir.
+                <br>
+                <br>
+                Limites Superior e inferior
+            </p>
+            <br>
+            <p>
+                Rangeabilidad, cociente entre el valor superior e inferior del instrumento.
+            </p>
+        </div>
+        <div class="C3" id="3">
+            <h2>Alcance</h2>
+            <p>
+                Diferencia algebraica entre el entre los valores superior e inferior del campo de medida del instrumento.
+            </p>
+        </div>
+        <div class="C4" id="4">
+            <h2>Error</h2>
+            <div class="ecuacion">
+                𝐸𝑟𝑟𝑜𝑟 = 𝑣𝑎𝑙𝑜𝑟 𝑙𝑒í𝑑𝑜 𝑑𝑒𝑙 𝑖𝑛𝑠𝑡𝑟𝑢𝑚𝑒𝑛𝑡𝑜 − 𝑣𝑎𝑙𝑜𝑟 𝑖𝑑𝑒𝑎𝑙
+            </div>
+            <div class="ecuacion">
+                𝐸𝑟𝑟𝑜𝑟 𝑎𝑏𝑠𝑜𝑙𝑢𝑡𝑜 = 𝑣𝑎𝑙𝑜𝑟 𝑙𝑒𝑖𝑑𝑜 −𝑣𝑎𝑙𝑜𝑟 𝑣𝑒𝑟𝑑𝑎𝑑𝑒𝑟𝑜
+            </div>
+            <div class="ecuacion">
+                𝐸𝑟𝑟𝑜𝑟 𝑟𝑒𝑙𝑎𝑡𝑖𝑣𝑜 = (𝑒𝑟𝑟𝑜𝑟𝑎 𝑏𝑠𝑜𝑙𝑢𝑡𝑜) / (𝑒𝑟𝑟𝑜𝑟 𝑣𝑒𝑟𝑑𝑎𝑑𝑒𝑟𝑜)
+            </div>
+        </div>
+        <div class="C5" id="5">
+            <h2>Incertidumbre de la medida </h2>
+            <p>
+                Aparato patrón --> valor evaluado = Ambos tiene errores lo que da Incertidumbre.
+                <br>
+                Fuentes de incertidumbre :
+            </p>
+                
+            <div>
+                
+                <ul>
+                    <li>Condiciones ambientales </li>
+                    <li>Lector instrumental analógico operadores </li>
+                    <li>Inexactitud aparato patrón</li>
+                    <li>Variación del valor con condiciones idénticas</li>
+                </ul>
+                <div>
+                    𝑢_𝑐=√(〖𝑢_(𝑡𝑖𝑝𝑜 𝐴)〗^2+〖𝑢_(𝑡𝑖𝑝𝑜 𝐵)〗^2 )
+                    𝑈_𝑒𝑥𝑝𝑎𝑛𝑑𝑖𝑑𝑎=𝐾∗𝑢_𝑐
+                    <br>
+                    <br>
+                    <span>K: factor de cobertura o seguridad</span>
+                    <br>
+                    <br>
+
+                </div>
+                <div>
+                    En el calculo de la ecuación se usa el termino mensura: magnitud particular objeto de una medida.
+                </div>
+            </div>
+        </div>
+        <div class="C6" id="6">
+            <h2>Tipo A (Incertidumbre estándar )</h2>
+            <p>
+                Análisis estadístico independiente de la entrada
+                si no existen evaluaciones estadísticas se tomarán la repetibilidad del instrumento a calibrar.
+            </p>
+            <div>
+                𝑋=1/𝑛 𝑥=1/𝑛 ∑▒〖(𝑥_𝑖)〗
+                𝑋=1/𝑛 𝑆(𝑥_𝑖−𝑥 ̅ )^2
+            </div>
+        </div>
+        <div class="C7" id="7">
+            <h2>Tipo B</h2>
+            <ul>
+                <li> Datos de medidas anteriores</li>
+                <li>Experiencia y conocimientos de los instrumentadores</li>
+                <li>Especificación del fabricante. </li>
+                <li>Valores de incertidumbre manuales técnicos</li>
+            </ul>
+            <div>
+                𝑢(𝑥)=√(𝑎^2 ( 𝑑𝑖𝑓𝑒𝑟𝑒𝑛𝑐𝑖𝑎 𝑣𝑎𝑙𝑜𝑟𝑒𝑠 max⁡〖𝑦 min⁡〖,ℎ𝑖𝑠𝑡𝑒𝑟𝑒𝑠𝑖𝑠, 𝑚𝑎𝑛𝑥𝑖𝑚𝑎,
+                𝑒𝑡𝑐〗 〗 )
+                𝑢(𝑥)=(𝑎_1−𝑎_2 )^2/12
+                𝑢(𝑥)=√((𝑎^2 (𝑑𝑖𝑓𝑒𝑟𝑒𝑛𝑐𝑖𝑎 𝑣𝑎𝑙𝑜𝑟𝑒𝑠 max⁡〖𝑦 min⁡〖,ℎ𝑖𝑠𝑡𝑒𝑟𝑒𝑠𝑖𝑠, 𝑚𝑎𝑛𝑥𝑖𝑚𝑎,
+                𝑒𝑡𝑐〗 〗))⁄24)
+            </div>
+        </div>
+        <div class="C8" id="8">
+            <h2>Exactitud</h2>
+            <p>
+                Define los límites de error cometidos al usar un instrumento en condiciones normales 
+                <br>
+                La exactitud se da en términos de inexactitud valores comprendidos entre superior e inferior.
+            </p>
+        </div>
+        <div class="C9" id="9">
+            <h2>Precisión</h2>
+            <p>
+                La precisión es un sinónimo de repetibilidad por lo que precisión sería el conjunto de valores de una variable con una dispersión similar.
+            </p>
+        </div>
+        <div class="C10" id="10">
+            <h2>Zona muerta</h2>
+            <p>
+                Valores mínimos no registrados en el instrumento que no infieren en la variable 
+
+            </p>
+        </div>
+        <div class="C11" id="11">
+            <h2>Repetibilidad</h2>
+            <p>
+                Capacidad de reproducir los mismos resultados en con una menor dispersión y condiciones similares.
+            </p>
+        </div>
+        <div class="C12" id="12">
+            <h2>Histéresis</h2>
+            <p>
+                Diferencia máxima indicada cuando la variable recurre toda la escala en dos sentidos ascendente y descendente.
+                <br><br><br>
+                <b>Ejemplo: </b> si un termómetro mide una variable de 40 centígrados y marca 39.9 centígrados al subir la temperatura desde cero e indica 40.1 centígrados al bajar la temperatura desde 100 °C 
+            </p>
+        </div>
+        <div class="C13" id="13">
+            <h2>Otros términos </h2>
+            <ul>
+                <li>Campo de  medida con elevación de cero</li>
+                <li>campo de medida con supresión de cero</li>
+                <li>Fiabilidad</li>
+                <li>Linealidad </li>
+                <li>Ruido</li>
+                <li>vida útil de servicio</li>
+                <li>Reproductibilidad</li>
+                <li>etc..</li>
+            </ul>
+        </div>
+        <div class="C14" id="14">
+            <h2>Clases de instrumentos </h2>
+            <p>
+                Los instrumentos se definen por la función del instrumento y la variable del proceso.
+
+            </p>
+        </div>
+        <div class="C15" id="15">
+            <h2>Por su función </h2>
+            <ul>
+                <li>Ciego no da valores </li>
+                <li>Indicadores da el valor de la variable </li>
+                <li>Registradores gráfica las variables</li>
+                <li>Sensores gráfica los valores y envía las señales predeterminadas </li>
+                <li>Transmisores - capta por medio de un elemento primario y envía de forma neumática en márgenes de 3 a 15 PSIO cuatro a 20 miliamperes continuó digital 
+                </li>
+            </ul>
+        </div>
+        <div class="C16" id="16">
+            <h2>Variable del proceso </h2>
+            <p>
+                Específicamente al tipo de señales medidas siendo independientes del sistema empleado en la conversión de la señal del proceso.
+
+            </p>
+        </div>
+        <div class="C17" id="17">
+            <h2>Código de identificación de instrumentos </h2>
+            <p>
+                Un código alfabético o numero tag que contenga el numero de identificación de lazo. 
+                <br>
+                No tener mas de 4 numero de letras funcionales.
+                <br>
+                La numeración de bucles puede ser en serie o paralelo.
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>
