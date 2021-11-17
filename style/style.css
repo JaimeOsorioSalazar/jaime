@@ -47,6 +47,9 @@ section>div {
     width: 70%;
     border-bottom:  5px double rgb(167, 4, 4);
 }
+section>div:last-child{
+    border-bottom: none;
+}
 h2 {
     margin: 4rem;
     font-size: 2.5rem;
@@ -68,7 +71,7 @@ ul li{
     list-style: circle ;
     font-size: 1.2rem;
     text-align: justify;
-    margin-left: 30%;
+    margin-left: 25%;
 }
 span{
     font-style: italic;
@@ -99,6 +102,75 @@ span{
 }
 .back a:hover {
     background-color: rgb(167, 4, 4);
-    color: rgb(253, 251, 251) ;
+    color: rgb(253, 251, 251);
     transition: .5s;
+}
+footer {
+    background-color: rgb(32, 29, 29);
+    border-top: 2px solid rgb(167, 4, 4);
+    
+}
+.container-footer{
+    display:grid;
+    grid-template-columns: auto ;
+    grid-template-rows: 50px 50px 100px;
+    flex-direction: column;
+    align-items: center;
+}
+.item1{
+    font-size: 2.3rem;
+    padding: 10px 10px ;
+    border-bottom: 1px solid rgb(187, 186, 186);
+}
+.item2 {
+    font-size: .9rem;
+    font-style: italic;
+    padding-top: 0;
+    letter-spacing: 2px;
+}
+.item3 {
+    padding: 10px;
+    align-self: flex-end;
+    width: 100%;
+    background-color: rgb(167, 4, 4);
+    font-size: 1.1rem;
+    color: rgb(194, 194, 14);
+}
+.C17{
+    height: 180vh;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    h1{
+        font-size: 2.2rem; 
+     }
+     .nav li{display: block; }
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+        width: 250px;
+        margin: 10px 10px 25px 10px;} 
+    p {
+        font-size: 1.2rem;
+        text-align: justify;
+    }   
+    .C5 {
+        height: 900px;
+    }
+   img{
+       width: 200px;
+   }
+   .back{
+       position: fixed;
+       bottom: 5px;
+       right: 0;
+   }
+   ul>li{
+       margin-left: 5px;
+    }
+    footer>div>div>p{
+        text-align: center;
+    }
 }
