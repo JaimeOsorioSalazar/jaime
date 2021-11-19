@@ -139,10 +139,9 @@ footer {
 .C17{
     height: 180vh;
 }
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+@media screen 
+  and (max-width: 400px) 
+  ) {
     h1{
         font-size: 2.2rem; 
      }
