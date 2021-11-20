@@ -141,16 +141,19 @@ footer {
 }
 @media screen 
   and (max-width: 400px) 
-  ) {
+  {
     h1{
         font-size: 2.2rem; 
      }
-     .nav li{display: block; }
+     .nav li{
+         display: block;
+      }
     h2 {
         font-size: 2rem;
         text-align: center;
         width: 250px;
-        margin: 10px 10px 25px 10px;} 
+        margin: 10px 10px 25px 10px;
+      } 
     p {
         font-size: 1.2rem;
         text-align: justify;
